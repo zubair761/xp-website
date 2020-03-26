@@ -37,7 +37,7 @@ class Footer extends React.Component{
                 </div>
                 </div>
                 <div className="bg-footer ">
-                    <div className="container pt-4 pb-4">
+                    <div className="container-fluid pt-4 pb-4">
                         <div className="row">
                             <div className="col-12 col-lg-3  border-right-footer">
                                 <p className="text-para-footer">Xperience Pakistan is an ideology,<br/> 
@@ -49,7 +49,7 @@ class Footer extends React.Component{
                             </div>
                             <div className="col-12 col-lg-3  border-right-footer pts-img-pd">
                                 <div className="">
-                                    <img className="img-pts" src={pts} width="100%"/>
+                                    <img className="img-pts" src={pts} width="80%"/>
                                 </div>
                             </div>
                             <div className="col-12 col-lg-3  border-right-footer pd-contact-div">

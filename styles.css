@@ -2,7 +2,7 @@
     overflow-x: hidden;
 }
 
-/* Header Css */
+/* Header Css Start */
 .hearder-main{
     background-color: #98885a;
 }
@@ -12,7 +12,7 @@
 .text-header{
     font-size: 14px;
     color: white;
-    font-family: inherit;
+    font-family: "Snell Roundhand";
 }
 .youtube-icon{
     font-size: 25px;
@@ -30,7 +30,7 @@
 .pd-li{
     padding-right: 32px !important;
     color: #8C3603 !important;
-    font-family: "";
+    font-family: "Snell Roundhand";
 }
 
 @media screen and (max-width: 1295px) {
@@ -52,7 +52,9 @@
 }
 .btn-search{
     background-color: #98885a;
+    padding: 0px;
 }
+
 .search-icon{
     color:white;
     font-size: 20px;
@@ -67,8 +69,107 @@
     border: 1px solid;
     padding: 6px;
     outline: none;
-    border: 1px solid #BEAA37;
+    border: 1px solid #98885a;
 }
+.flag-select .flag-options{
+    width: 100%;
+    border: 1px solid #98885a !important;
+    border-radius: 0px !important;
+    overflow-x: hidden !important;
+}
+.flag-select .selected--flag--option .country-label{
+    padding-left: 0px !important;
+    font-size: 10px;
+}
+.flag-select .filterBox input {
+    border: 1px solid #98885a;
+}
+
+.my-profile-ul-main{
+    list-style-type: none;
+    margin: 0;
+}
+.drop-my-profile {
+	position: relative;
+}
+.profile-img a {
+	line-height: 80px;
+	padding: 0 20px;
+	height: 80px;
+	color: white;
+	transition: all .1s ease-out;
+}
+
+.dropOut .triangle {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #98885a;
+    top: -8px;
+    left: 74%;
+    margin-left: -8px;
+}
+.dropdownContain {
+	width: 160px;
+	position: absolute;
+	z-index: 2;
+	left: 50%;
+	margin-left: -80px; /* half of width */
+	top: -400px;
+}
+.dropOut {
+    width: 178px;
+    background: #98885a;
+    float: left;
+    position: relative;
+    margin-top: 0px;
+    opacity: 0;
+    border-radius: 0px;
+    box-shadow: 0 1px 6px rgba(0,0,0,.15);
+    transition: all .1s ease-out;
+    right: 40%;
+    top: 13px;
+    border-radius: 5px;
+}
+
+.my-profile-dropdown-ul {
+    cursor: pointer;
+	float: left;
+	padding: 0px 0;
+}
+ .text-profile {
+    list-style-type: none;
+    text-align: left;
+    float: left;
+    width: 160px;
+    padding: 12px 0 10px 4px;
+    margin: 0px 10px;
+    color: white;
+    opacity: 0.8;
+    font-weight: 100;
+    border-bottom: 1px solid white;
+	transition: 'background .1s ease-out';
+}
+.text-sign-out{
+    list-style-type: none;
+    text-align: left;
+    float: left;
+    width: 160px;
+    padding: 12px 0 10px 4px;
+    margin: 0px 10px;
+    color: white;
+    opacity: 0.8;
+    font-weight: 100;
+	transition: 'background .1s ease-out';
+}
+
+.my-profile-ul-main .drop-my-profile:hover .dropdownContain { top: 25px; }
+.my-profile-ul-main .drop-my-profile:hover .dropOut { opacity: 1; margin-top: 8px; }
+
+
+/* Header Css End */
 
 /* Experience Css Start */
 
@@ -640,9 +741,9 @@
 .text-signUp{
     text-align: center;
     font-size: 35px;
-    color: #BEAA37;
+    color: #98885a;
     font-weight: 100;
-    font-family: inherit;
+    font-family: "SnellRoundhandW01-Bold";
 }
 
 .input-container-footer {
@@ -653,7 +754,7 @@
   
   .icon-footer {
     padding: 10px;
-    background: #BEAA37;
+    background: #98885a;
     color: white;
     min-width: 50px;
     text-align: center;
@@ -663,11 +764,11 @@
     width: 100%;
     padding: 10px;
     outline: none;
-    border: 1px solid #BEAA37;
+    border: 1px solid #98885a;
   }
   
   .input-field-footer:focus {
-    border: 1px solid #BEAA37;
+    border: 1px solid #98885a;
   }
   
   .down-icon-footer{
@@ -679,10 +780,10 @@
     box-shadow: 1px -1px 0px -50px #f9eca0;
 	background-color:transparent;
 	border-radius:24px;
-	border:1px solid #BEAA37;
+	border:1px solid #98885a;
 	display:inline-block;
 	cursor:pointer;
-	color:#BEAA37;
+	color:#98885a;
 	font-family: unset;
     font-weight: 100;
 	font-size:15px;
@@ -698,7 +799,7 @@
 
 
 .btn-subscribe:focus{
-    border:1px solid #BEAA37 !important;
+    outline: none;
 }
 
 .flower-image{
@@ -728,6 +829,8 @@
     font-weight: 100;
     font-size: 15px;
     padding-top: 80px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 .img-pts{
     padding-top: 60px;
@@ -746,6 +849,9 @@
 
 .pts-img-pd{
     padding-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 .foundation-img{
     width: 42%;
@@ -850,6 +956,7 @@
 .slider-home-page-image {
     width: 100%;
     height: 650px;
+    filter: brightness(0.5);
 }
 
 .carousel-indicators li {
@@ -862,14 +969,16 @@
     border-radius: 100%;
     text-align: center;
     background-color: #333;
-    color: #BEAA37;
+    color: #98885a;
     text-indent: -9999px;
     cursor: pointer;
     transition: all 0.2 linear;
+    background: transparent;
+    border: 1px solid #98885a;
     
   }
   .carousel-indicators li.active{
-    background-color: #BEAA37 !important;
+    background-color: #98885a !important;
   }
 
   .text-experience{
@@ -1059,6 +1168,26 @@
 
 /*  Mozino Pass Page Css Start */
 
+.image-div-360{
+    position: relative;
+}
+.image-threesixty{
+    width: 15%;
+    position: absolute;
+    top: 28%;
+    left: 39%;
+}
+.image-div-360 .fullscreen .a-canvas {
+    height: 550px;
+    width: 100%;
+}
+.image-div-360 .fullscreen .a-enter-vr{
+    display: none;
+}
+.image-div-360 .fullscreen .a-orientation-modal{
+    display: none;
+}
+
 .carousel-indicators-mozino{
     left: 68% !important;
     margin-right: 8% !important;
@@ -1110,12 +1239,27 @@
 
 #text{
     display:none;
-    color: #D81E05;
+    color: #8C3603;
+    font-size: 15px;
+    font-style: italic;
+}
+#text-about-tour-one{
+    display:none;
+    color: #8C3603;
+    font-size: 15px;
+    font-style: italic;
+}
+#text-about-tour-two{
+    display:none;
+    color: #8C3603;
+    font-size: 15px;
+    font-style: italic;
 }
 .btn-container{
     margin: auto;
     height:44px;
-    width:166.23px;     
+    width:166.23px; 
+    padding-top: 17px;    
 }
  
 .btn-read-more{
@@ -1130,7 +1274,8 @@
 }
 
 .text-para-read-more{
-    color: #D81E05;
+    color: #8C3603;
+    text-align: justify;
 }
 .text-tour-highlight-option{
     font-size: 22px;
@@ -1152,16 +1297,34 @@
 }
 .tab-mozino-category-hotels{
     border:none;
-    border-color: none !important;
+}
+.pd-tab-mozino-category-hotels{
+    padding-left: 75px;
+}
+.pd-hotel-used{
+    padding-left: 80px;
+}
+.pd-landmark{
+    padding-left: 70px;
+    padding-right: 47px;
+}
+.pd-whyus{
+    padding-left: 70px;
+}
+.pd-referafriend{
+    padding-right: 32px;
+}
+.pd-reviews{
+    padding-left: 75px;
 }
 
 .text-hotel-used-mozino{
     color: #8C3603;
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 600;
     display: block;
     padding-top: 15px;
-    font-weight: 600;
+    text-align: center;
 }
 .text-hotel-used-mozino:hover{
     color: #8C3603;
@@ -1171,13 +1334,11 @@
 .text-landmarks-mozino{
     color: #8C3603;
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 600;
     display: block;
-    width: 105px;
     line-height: 1;
     padding-top: 20px;
     text-align: center;
-    font-weight: 600;
 }
 .text-landmarks-mozino:hover{
     color: #8C3603;
@@ -1213,25 +1374,25 @@
 }
 .text-reviews-mozino{
     color: #8C3603;
-    font-size: 22px;
+    font-size: 24px;
     display: block;
-    padding-top: 34px;
+    padding-top: 40px;
     font-weight: 600;
 }
 .text-reviews-mozino:hover{
     color: #8C3603;
-    font-size: 22px;
+    font-size: 24px;
     text-decoration: none !important;
 }
 .hotel-img{
-    width: 40%;
+    width: 26%;
     margin-left: auto;
     margin-right: auto;
     display: flow-root;
 }
 .landmark-img{
-    width: 40%;
-    
+    width: 87%;
+    padding-left: 10px;
 }   
 .whyus-img{
     width: 40%;
@@ -1240,20 +1401,20 @@
     padding-left: 8px;
 }
 .referfriend-img{
-    width: 40%;
+    width: 30%;
     margin-left: auto;
     margin-right: auto;
     display: flow-root;
 }
 .reviews-img{
-    width: 40%;
+    width: 63%;
 }
-.pd-nav-item{
+/* .pd-nav-item{
     padding-right: 65px;
-}
-.pd-nav-item-hotels{
+} */
+/* .pd-nav-item-hotels{
     padding-right: 100px;
-}
+} */
 .border-hotels-section{
     border-bottom: 5px outset rgba(252,252,252,0.07);
 }
@@ -1472,8 +1633,7 @@
 	font-size:17px;
 	padding:14px 71px;
 	text-decoration:none;
-    text-shadow:0px 1px 0px #2f6627;
-    font-weight: 700;
+    font-weight: 400;
 }
 .btn-enquiry-form:focus{
     border: none;
@@ -1490,34 +1650,122 @@
     outline: none !important;
 }
 
-.datepicker-div{
-    background: white;
-    border-right: none !important;
-    border-left: none !important;
-    border: 1px solid #98885a;
-}
-.calendar-image-enquiry-form{
-    width: 50%;
-    padding-top: 10px;
-}
-.datepicker-div-image{
-    border: 1px solid #98885a;
-    background: white;
-    border-right: none !important;
-}
-.datepicker-div-icon{
- border: 1px solid #98885a;
- background: white;
- border-left:none !important; 
-}
+
 .icon-date-picker{
     font-weight: 800;
     color: #98885a;
     font-size: 48px;
 }  
-.datepicker-main-div{
-    margin-left: auto;
-    margin-right: auto;
+.datepicker-parent-div .react-datepicker__tab-loop{
+    display: inline-block ;
+}
+.datepicker-parent-div .react-datepicker-wrapper .react-datepicker__input-container input{
+    border-right: none;
+    border-top: 1px solid #98885a;
+    border-bottom: 1px solid #98885a;
+    border-left: none;
+    padding: 10px;
+    width: 500px;
+    background: #FCFCFC;
+}
+.datepicker-parent-div .react-datepicker-wrapper .react-datepicker__input-container input:focus{
+    outline: none !important;
+}
+.fa-angle-down-datepicker{
+    display: inline-block;
+    padding: 10px;
+    border-top: 1px solid #98885a;
+    border-right: 1px solid #98885a;
+    border-bottom: 1px solid #98885a;
+    background: #FCFCFC;
+}
+.datepicker-icon{
+    font-size: 22px;
+    color: #98885a;
+    font-weight: bold;
+}
+.datepicker-image-div{
+    display: inline-block;
+    border-top: 1px solid #98885a;
+    border-bottom: 1px solid #98885a;
+    border-left: 1px solid #98885a;
+    padding-bottom: 6px;
+    padding-top: 10px;
+    background: #FCFCFC;
+}
+.people-select-parent-div{
+    display: inline-block;
+}
+.people-selected{
+    padding: 10px;
+    border-left: none;
+    background: #FCFCFC;
+    width: 525px;
+    border-color: #98885a;
+}
+.people-selected:focus{
+    outline: none !important;
+}
+.save-wishlist-div{
+    display: inline-block;
+    border: 1px solid #98885a;
+    padding: 15px;
+    background: white;
+}
+.save-wishlist-num-count-div{
+    display: inline-block;
+    border-top: 1px solid #98885a;
+    border-bottom: 1px solid #98885a;
+    border-right: 1px solid #98885a;
+    padding: 15px;
+    background: white;
+}
+.text-save-wishlist{
+    color: #98885a;
+    font-size: 35px;
+}
+
+.accordion .card-header:after {
+    font-family: 'FontAwesome';
+    content: "\F068";
+    float: left;
+    color: #98885a;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+.accordion .card-header.collapsed:after {
+     /* symbol for "collapsed" panels */
+    content: "\F067";
+    color: #98885a;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+.card-itinerary{
+    border: none !important;
+    border-radius: none !important;
+}
+.card-header-itinerary{
+    border-bottom: none !important;
+    background: none !important;
+    padding-bottom: 0px;
+}
+.card-title-itinerary{
+    font-size: 22px;
+    color: #98885a !important;
+    font-weight: 700;
+}
+.card-title-itinerary-span{
+    font-weight: 100;
+}
+.card-body-itinerary{
+    padding-left: 47px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.card-body-para-itinerary{
+    text-align: justify;
+    color: #8C3603;
+    line-height: 1.8;
 }
 
 /* Moznio Pass Page Css End */
@@ -1539,13 +1787,13 @@
 }
  .text-experience-paage-experience{
     display: inline-block;
-    color: #8C3603;
+    color: #98885a;
     font-weight: 700;
     font-family: sans-serif;
     font-size: 40px;
   }
   .location-icon-eperience-page{
-    color: #8C3603;
+    color: #98885a;
     font-size: 40px;
     padding-right: 25px;
   }
@@ -1714,18 +1962,18 @@
 
 .bg-image-destination-islamabad-page{
     width: 100%;
-    height: 446px;
+    height: 450px;
     filter: brightness(0.3);
 }
 .text-centered-destination-islamabad-page{
     position: absolute;
-    top: 55%;
-    left: 17%;
+    top: 58%;
+    left: 23%;
     transform: translate(-50%, -50%);
 }
 .text-destination-islamabad-page{
-    font-size: 25px;
-    font-weight: 800;
+    font-size: 68px;
+    font-weight: 500;
     color: white;
 }
 .text-contact-detail{
@@ -1761,6 +2009,7 @@
 .form-control-contact-billing-detail::placeholder{
     color: #98885a;
     padding: 0;
+    font-size: 10px;
 }
 .form-control-contact-billing-detail-country-dropdown{
     width: 100%;
@@ -1935,7 +2184,12 @@
     color: #8C3603;
     font-size: 17px;
 }
-.two-num-contact-detail-div{
+
+.textarea-contact-detail{
+    outline: none;
+}
+
+/* .two-num-contact-detail-div{
     background: #98885a;
     padding-top: 7px;
     padding-left: 11px;
@@ -1950,7 +2204,7 @@
     padding-right: 12px;
     padding-bottom: 6px;
     border-radius: 17px;
-}
+} */
 /* Contact Detail Page Css End */
 
 
@@ -1963,14 +2217,13 @@
     top: -150px;
 }
 .bg-container-fluid-breadcrumb-payment{
-    background-color: black;
+    background-color: #98885a;
     position: absolute;
-    top: 83%;
-    opacity: 0.7;
+    top: 81%;
+    opacity: 0.8;
     height: 75px;
 }
 
-/* Payment Page css End */
 .text-para-preferred-additional-services{
     text-align: center;
     font-size: 19px;
@@ -2024,10 +2277,10 @@
     box-shadow: 1px -1px 0px -50px #f9eca0;
 	background-color:transparent;
 	border-radius:24px;
-	border:1px solid #BEAA37;
+	border:1px solid #98885a;
 	display:inline-block;
 	cursor:pointer;
-	color:#BEAA37;
+	color:#98885a;
 	font-family: unset;
     font-weight: 100;
 	font-size:15px;
@@ -2044,6 +2297,7 @@
 .btn-subscribe-payment-page:focus{
     outline: none;
 }
+
 
 .flower-image-payment-page{
     position: absolute;
@@ -2091,7 +2345,7 @@
     padding-left: 85px;
 }
 .right-div{
-    border: solid #98885a;
+    border: solid white;
     border-width: 0 1px 1px 0;
     display: inline-block;
     padding: 25px;
@@ -2106,7 +2360,7 @@
     border-radius: 35px;
 }
 .fa-check-icon-payment{
-    color: #8C3603;
+    color: white;
     font-size: 20px;
 }
 .two-num-payment-div{
@@ -2125,168 +2379,1086 @@
     padding-bottom: 6px;
     border-radius: 18px;
 }
-.four-num-payment-div{
+/* .four-num-payment-div{
     background: white;
     padding-top: 7px;
     padding-left: 11px;
     padding-right: 12px;
     padding-bottom: 6px;
     border-radius: 18px;
-}
+} */
 .one-num-payment{
-    color: #8C3603;
+    color: white;
     font-size: 17px;
     font-weight: 700;
 }
-.text-select-tour{
+.one-num-payment-contact-detail{
+    color: #8c3603;
+    font-size: 17px;
+    font-weight: 700;
+}
+.text-contact-detail{
     padding-left: 10px;
     font-size: 15px;
     color: #8C3603;
     font-weight: 600;
 }
-/* breadcrumb  Destination Css Start */
-
-.breadcrumb-arrow {
-    min-height: 36px;
-    line-height: 36px;
-    list-style: none;
-    overflow: auto;
-    /*    background-color: #e6e9ed*/
-    /*background: linear-gradient(to right, #eaeaea 0%,#ffffff 100%);*/
+.text-select-tour{
+    padding-left: 10px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+}
+.three-num-payment{
+    color: #8c3603;
+    font-size: 17px;
+    font-weight: 700;
+}
+.text-payment{
+    padding-left: 10px;
+    font-size: 15px;
+    color: #8C3603;
+    font-weight: 600;
 }
 
-.breadcrumb-arrow li:first-child a {
-    border-radius: 4px 0 0 4px;
-    -webkit-border-radius: 4px 0 0 4px;
-    -moz-border-radius: 4px 0 0 4px;
+/* Payment Page css End */
+
+
+/* Register Page Css Start */
+.bg-section-register{
+    background: #FCFCFC;
+    max-height: 420px;
+}
+.register-col-main-div{
+    z-index: 1;
+}
+.text-register{
+   color: #98885a;
+   text-transform: uppercase;
+}
+.register-border-div{
+    border: 2px solid #98885a;
+    width: 32%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.breadcrumb-arrow li,
-.breadcrumb-arrow li a,
-.breadcrumb-arrow li span {
+.register-email{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    border: 1px solid #98885a;
+    color: #8C3603;
+}
+.register-email::placeholder{
+    padding: 0px;
+    color: #8C3603;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: inherit;
+    opacity: 0.7;
+}
+
+.register-email:focus{
+    outline:none;
+}
+
+.btn-register{
+	text-transform: uppercase;
+	background-color:#98885a;
+    border-radius:31px;
+    font-weight: 600;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	padding:5px 137px;
+    text-decoration:none;
+    border: 1px solid #98885a;
+}
+.btn-register:focus{ 
+    outline: none;
+}
+
+.text-goolge{
+	background-color:white;
+    border-radius:31px;
+    font-weight: 600;
+	display:inline-block;
+	cursor:pointer;
+	color:#98885a;
+	font-family:Arial;
+	font-size:18px;
+	padding:5px 100px;
+    text-decoration:none;
+    border: 1px solid #98885a;
+}
+.text-goolge:hover{
+    color: #98885a;
+    text-decoration: none;
+}
+.text-G{
+    padding-left: 5px;
+    color: #21a6dc;
+}
+.text-o-red{
+    color: red;
+}
+.text-o-yellow{
+    color: yellow;
+}
+.text-g{
+    color: #21a6dc;
+}
+.text-l{
+    color: green;
+}
+.btn-facebook{
+    background-color: #3B5998;
+    border-radius: 31px;
+    font-weight: 600;
     display: inline-block;
-    /*vertical-align: top;*/
-}
-
-.breadcrumb-arrow li:not(:first-child) {
-    margin-left: -5px;
-}
-
-.breadcrumb-arrow li+li:before {
-    padding: 0;
-    content: "";
-}
-
-.breadcrumb-arrow li span {
-    padding: 0 10px;
-}
-
-.breadcrumb-arrow li a,
-.breadcrumb-arrow li:not(:first-child) span {
-    height: 36px;
-    padding: 0 10px 0 25px;
-    line-height: 36px;
-}
-
-.breadcrumb-arrow li:first-child a {
-    padding: 0 10px;
-}
-
-.breadcrumb-arrow li a {
-    position: relative;
-    color: #fff;
+    cursor: pointer;
+    color: white;
+    font-family: Arial;
+    font-size: 18px;
+    padding: 7px 91px;
     text-decoration: none;
-    background-color: #343a40;
-    border: 1px solid #343a40;
+    border: 1px solid #3B5998;
+    opacity: 0.8;
 }
-
-.breadcrumb-arrow li:first-child a {
-    padding-left: 10px;
-}
-
-.breadcrumb-arrow li a:after,
-.breadcrumb-arrow li a:before {
-    position: absolute;
-    top: -1px;
-    width: 0;
-    height: 0;
-    content: '';
-    border-top: 18px solid transparent;
-    border-bottom: 18px solid transparent;
-}
-
-.breadcrumb-arrow li a:before {
-    right: -10px;
-    z-index: 3;
-    border-left-color: #343a40;
-    border-left-style: solid;
-    border-left-width: 10px;
-}
-
-.breadcrumb-arrow li a:after {
-    right: -11px;
-    z-index: 2;
-    border-left: 11px solid #fff;
-}
-
-.breadcrumb-arrow li a:focus,
-.breadcrumb-arrow li a:hover {
-    background-color: #40474e;
-    border: 1px solid #40474e;
-}
-
-.breadcrumb-arrow li a:focus:before,
-.breadcrumb-arrow li a:hover:before {
-    border-left-color: #40474e;
-}
-
-.breadcrumb-arrow li a:active {
-    background-color: #40474e;
-    border: 1px solid #40474e;
-}
-
-.breadcrumb-arrow li a:active:after,
-.breadcrumb-arrow li a:active:before {
-    border-left-color: #40474e;
-}
-
-/*set for Last child*/
-
-.breadcrumb-arrow li.active span {
-    position: relative;
-    color: #fff;
+.btn-facebook:hover{
+    color: white;
     text-decoration: none;
-    background-color: #007bff;
-    border: 1px solid #007bff;
+}
+.silhouettes-register-div{
+    overflow: hidden;
+    max-height: 190px;
+}
+.silhouettes-register-img{
+    width: 100%;
 }
 
-.breadcrumb-arrow li.active:first-child span {
-    padding-left: 10px;
+/* Register Page Css End */
+
+
+/* Login Page Css Start */
+
+.bg-section-login{
+    background: #FCFCFC;
+    max-height: 205px;
 }
 
-.breadcrumb-arrow li.active span:after,
-.breadcrumb-arrow li.active span:before {
+.login-border-div{
+    border: 2px solid #98885a;
+    width: 22%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-forgot-password{
+    text-decoration: none;
+    color: #8C3603;
+    font-size: 16px;
+    opacity: 0.8;
+}
+.text-forgot-password:hover{
+    text-decoration: none;
+    color: #8C3603;
+}
+.btn-login{
+	text-transform: uppercase;
+	background-color:#98885a;
+    border-radius:31px;
+    font-weight: 600;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	padding:5px 137px;
+    text-decoration:none;
+    border: 1px solid #98885a;
+    opacity: 0.8;
+}
+.btn-login:focus{ 
+    outline: none;
+}
+/* Login Page Css End */
+
+/* My Profile Css Start */
+
+.my-profile-section{
+    background: #FCFCFC;
+    border-bottom: 1px solid #98885a;
+    border-top: 1px solid #98885a;
+    margin-top: 20px;
+}
+
+#toggleMenu {
+    color: #98885a;
+    padding: 0px 8px 2px 8px;
+    border: 1px solid #8C3603;
+    border-radius: 10px;
+    margin-left: 20px;
+    font-size: 25px;
     position: absolute;
-    top: -1px;
-    width: 0;
-    height: 0;
-    content: '';
-    border-top: 18px solid transparent;
-    border-bottom: 18px solid transparent;
+    transition: 0.8s;
+    top: 13%;
+}
+  
+  .sidenav {
+    height: 1150px;
+    display: inline-block;
+    width: 0; 
+    position: relative; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    overflow-x: hidden; 
+    padding-top: 45px; 
+    transition: 0.9s; 
+  }
+  
+  .my-profile-sidenav {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #8C3603;
+    display: block;
+    transition: 0.3s;
+    font-weight: 100;
+    text-transform: uppercase;
+  }
+  
+  .my-profile-sidenav:hover {
+    background: #98885a;
+    color: white;
+    opacity: 0.7;
+    text-decoration: none;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: -12px;
+    right: 10px;
+    font-size: 36px;
+    color: #98885a;
+    margin-left: 50px;
+    display: block;
+    overflow-x: hidden; 
+    text-decoration: none;
+  }
+  .closebtn:hover{
+    text-decoration: none;
+    color: #8C3603;
+  }
+  
+  #main {
+    transition: margin-left .9s;
+    position: absolute;
+    top: 215px;
+    overflow-x: hidden;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+.myprofile-image {
+    width: 100%;
+    height: 200px;
+}
+.text-my-profile{
+    padding-right: 120px;
+    text-transform: uppercase;
+    color: #98885a;
+    margin-bottom: 0;
+    font-size: 33px;
+}
+.profile-border-div{
+    border: 2px solid #98885a;
+    width: 13%;
+    margin-left: auto;
+    margin-right: 48%;
+    transition: 0.9s;
+}
+.text-name-profile{
+    color: #98885a;
+}
+.text-address-profile{
+    margin-bottom: 0;
+    color: #8C3603;
+}
+.text-email-profile{
+    margin-bottom: 0;
+    color: #8C3603;
+}
+.text-bio-profile{
+    color: #98885a;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    padding-top: 6px;
+}
+.text-coin-points{
+    font-size: 18px;
+    padding-left: 5px;
+    color: #EE6809;
+}
+.text-para-bio{
+    text-align: justify;
+    font-size: 18px;
+    padding-top: 10px;
+    color: #8C3603;
+}
+.text-invite-a-friend{
+    text-transform: uppercase;
+    color: #98885a;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.text-invite-a-friend-border-div{
+    border: 2px solid #98885a;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.btn-refer-afriend{
+    background-color: #98885a;
+    border-radius: 31px;
+    font-weight: 600;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 18px;
+    padding: 12px 65px;
+    text-decoration: none;
+    border: 1px solid #98885a;
+}
+.btn-refer-afriend:focus{ 
+    outline: none;
+}
+.text-suggestion-box{
+    text-transform: uppercase;
+    color: #98885a;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.text-suggestioon-box-border-div{
+    border: 2px solid #98885a;
+    margin-left: auto;
+    margin-right: auto;
+    width: 22%;
+}
+.textarea-my-profile{
+    outline: none;
+    padding-left: 10px;
+    color: #8C3603;
+}
+.textarea-my-profile::placeholder{
+    color: #8C3603;
+    font-family: inherit;
+    padding-left: 0;
+}
+.btn-submit-profile{
+    background-color: #98885a;
+    border-radius: 31px;
+    font-weight: 400;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 18px;
+    padding: 7px 30px;
+    text-decoration: none;
+    border: 1px solid #98885a;
+}
+.btn-submit-profile:focus{ 
+    outline: none;
 }
 
-.breadcrumb-arrow li.active span:before {
-    right: -10px;
-    z-index: 3;
-    border-left-color: #007bff;
-    border-left-style: solid;
-    border-left-width: 11px;
+/* My Profile Css End */
+
+
+/* Reviews & Rating Css Start */
+.sidenav-reviews {
+    height: 740px;
+    display: inline-block;
+    width: 0; 
+    position: relative; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    overflow-x: hidden; 
+    padding-top: 45px; 
+    transition: 0.5s; 
+  }
+
+@media screen and (max-height: 450px) {
+    .sidenav-reviews{padding-top: 15px;}
+    .sidenav-reviews a {font-size: 18px;}
+  }
+
+.profile-image-div{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile-image{
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid #98885a;
+}
+.reviews-image{
+    width: 100%;
+    height: 0px;
+}
+.text-reviews-ratings{
+    text-transform: uppercase;
+    color: #98885a;
+    margin-bottom: 0;
+}
+.text-reviews-ratings-border-div{
+    border-bottom: 2px solid #98885a;
+    margin-left: auto;
+    margin-right: auto;
+    width: 27%;
+    transition: 0.9s;
+}
+.text-tour-name-reviews-rating{
+    color: #98885a;
+}
+.star-reviews-icon{
+    color: #98885a;
+}
+.text-para-reviews-rating{
+    text-align: justify;
+    font-size: 18px;
+    padding-top: 10px;
+    color: #8C3603;
+}
+/* Reviews & Rating Css End */
+
+/* Itineraries Css Start */
+/* .sidenav-reviews {
+    height: 740px;
+    display: inline-block;
+    width: 0; 
+    position: relative; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    overflow-x: hidden; 
+    padding-top: 45px; 
+    transition: 0.9s; 
+  }
+
+@media screen and (max-height: 450px) {
+    .sidenav-reviews{padding-top: 15px;}
+    .sidenav-reviews a {font-size: 18px;}
+} */
+
+.text-itineraries{
+    text-transform: uppercase;
+    color: #98885a;
+}
+.text-itineraries-border-div{
+    border: 2px solid #98885a;
+    width: 16%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.9s;
+}
+.border-div-content-itineraries{
+    border: 1px solid #98885a;
+    padding: 25px;
+}
+.itineraries-image{
+    width: 100%;
+}
+.text-tour-name-itineraries{
+    color: #98885a;
+    margin-bottom: 0;
+}
+.text-date-itineraries{
+    color: #8C3603;
+}
+.text-day-by-day-tour{
+    color: #98885a;
+    font-weight: 600;
+}
+.text-day-plan{
+    color: #8C3603;
+    padding-right: 5px;
+}
+.pound-image-itineraries{
+    width: 12%;
+    padding-bottom: 3px;
+    padding-right: 5px;
+}
+.itineraries-price{
+    color: #98885a;
+    font-weight: 700;
+    font-size: 24px;
+}
+.text-book-again-itineraries{
+    color: #8C3603;
+    line-height: 1;
+}
+/* Itineraries Css End */
+
+
+/* My Tour Css Start */
+
+.border-div-content-myTour{
+    border: 1px solid #98885a;
+    padding: 10px;
+}
+.text-myTour{
+    text-transform: uppercase;
+    color: #98885a;
+    margin-bottom: 0;
+}
+.text-myTour-border-div{
+    border: 2px solid #98885a;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12%;
+    transition: 0.9s;
+}
+.pound-image-myTour{
+    width: 12%;
+    padding-bottom: 3px;
+    padding-right: 5px;
 }
 
-.breadcrumb-arrow li.active span:after {
-    right: -11px;
-    z-index: 2;
-    border-left: 10px solid #007bff;
+/* My Tour Css End */
+
+
+
+/* Payment Detail Css Start */ 
+
+.text-paymentDetail{
+    color: #98885a;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.text-paymentDetail-border-div{
+    border: 2px solid #98885a;
+    width: 24%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.9s;
+}
+.border-content-div-paymentdetail{
+    border: 1px solid #98885a;
+    padding: 5px;
+}
+.paymentDetailHeader{
+    color: #98885a;
+    font-weight: 700;
+}
+.pound-image-payment-detail-profile{
+    width: 5%;
+    padding-bottom: 3px;
+    padding-right: 5px;
+}
+.text-tour-name-paymentDetail{
+    color: #98885a;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.text-date-paymentDetail{
+    color: #8C3603;
+    margin-bottom: 0;
+}
+.paymentDetail-price{
+    color: #98885a;
+    font-weight: 700;
+    font-size: 24px;
+}
+.text-payment-status{
+    color: #98885a;
+    font-size: 22px;
+}
+.mastercard-paymentDetail-image{
+    width: 20%;
+    padding-top: 10px;
+}
+/* Payment Detail Css End */
+
+/* Travel Document Css Start */
+.text-travelDocument{
+    color: #98885a;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.text-travelDocument-border-div{
+    border: 2px solid #98885a;
+    width: 27%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.9s;
+}
+.text-traveldocument-type{
+    color: #8C3603;
+    font-size: 16px;
+}
+.text-note-travel-document{
+    color: #98885a;
+    font-weight: 600;
+    padding-left: 23px;
+    margin-bottom: 0;
+}
+.text-para-travel-document{
+    color: #8C3603;
+    font-size: 14px;
+    font-style: italic;
+    padding-left: 23px;
+}
+.text-ul-travel-document{
+    color: #8C3603;
+}
+.text-uploaded-document{
+    color: #98885a;
+    font-weight: 700;
 }
 
-/* breadcrumb  Destination Css End */
+.btn-upload-travel-document{
+    background-color: #98885a;
+    border-radius: 31px;
+    font-weight: 400;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 18px;
+    padding: 8px 52px;
+    text-decoration: none;
+    border: 1px solid #98885a;
+}
+.btn-upload-travel-document:focus{ 
+    outline: none;
+}
+/* Travel Document Css End */
+
+
+/* Travel Accessories Css Start */ 
+.text-travelAccessories{
+    color: #98885a;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+#travelAccessoriesBorderdiv{
+    border: 2px solid #98885a;
+    width: 51%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.9s;
+}
+.text-card-title-travel{
+    color: #98885a;
+    margin-bottom: 0;
+}
+.text-card-travel{
+    color: #8C3603;
+}
+/* Travel Accessories Css End */
+
+
+/* WishList Css Start */
+.text-wishList{
+    color: #98885a;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.text-wishList-border-div{
+    border: 2px solid #98885a;
+    width: 12%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.9s;
+}
+.text-tours-wishlist{
+    font-size: 20px;
+    color: #98885a;
+    padding: 12px;
+}
+
+/* WishList Css End */
+
+/* My Gallery Css Start  */
+.text-myGallery{
+    color: #98885a;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.text-myGallery-border-div{
+    border: 2px solid #98885a;
+    width: 17%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.9s;
+}
+.my-gallery-image-top-border{
+    border: 1px solid #98885a;
+}
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload-gallery{
+    border: 1px solid #98885a;
+    padding: 8px 50px;
+    color: #8C3603;
+    opacity: 0.6;
+}
+.custom-file-upload-gallery-icon-div{
+    background: #98885a;
+    border-radius: 34px;
+    padding: 10px;
+}
+.custom-file-upload-gallery-icon{
+    color: white;
+    font-size: 22px;
+}
+/* My Gallery Css End  */
+
+
+/* Perosnal Shopper Css Start */
+.landing-page-image-main{
+    width: 100%;
+    height: 500px;
+}
+.text-personalShopper{
+    display: inline-block;
+    color: #98885a;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.location-icon-personalShopper{
+    color: #98885a;
+    font-size: 40px;
+    padding-right: 25px;
+}
+.bridal-image-personalShopper{
+    width: 100%;
+    height: 370px;
+}
+.mg-read-more-personalShopper{
+    margin-top: -94px;
+}
+.text-para-main-personal-shoper{
+    color: #8C3603;
+    text-align: justify;
+    font-size: 19px;
+    padding-top: 12px;
+}
+.text-profile-name-personal-shoper{
+    color: #98885a;
+    font-size: 30px;
+    padding-top: 30px;
+}
+#text-personalShopper{
+    display:none;
+    color: #8C3603;
+    font-size: 19px;
+}
+#text-one-personalShopper{
+    display:none;
+    color: #8C3603;
+    font-size: 19px;  
+}
+#text-two-personalShopper{
+    display:none;
+    color: #8C3603;
+    font-size: 19px;
+}
+.personalShopper-hennapattern{
+    border: 1px solid #98885a;
+}
+.personalShopper-image-div{
+    display: inline-block;
+}
+.personalShopper-bridalWear{
+    height: 415px;
+}
+.personalShopper-casualWear{
+    height: 415px;
+    filter: brightness(0.4);
+}
+.icon-bridalWear-personalShopper{
+    position: absolute;
+    top: 39%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: white;
+  
+  }
+  .centered-bridalWear-personalShopper {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 45px;
+    font-weight: 100;
+    text-decoration: none;
+  }
+  .centered-bridalWear-personalShopper:hover{
+      color: white;
+      text-decoration: none;
+  }
+  .icon-casualWear-personalShopper{
+    position: absolute;
+    top: 39%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: white;
+  
+  }
+  .centered-casualWear-personalShopper {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 45px;
+    font-weight: 100;
+    text-decoration: none;
+  }
+  .centered-casualWear-personalShopper:hover{
+      color: #98885a;
+      text-decoration: none;
+  }
+/* Personal Shopper Css End */
+
+/* Bridal Wear questionaire One  Css Start */
+.text-what-your-style{
+    text-align: center;
+    color: #98885a;
+    font-weight: 400;
+}
+.text-conservative{
+    text-align: center;
+    padding-top: 5px;
+    color: #98885a;
+}
+.btn-next-bridal-wear{
+    width: 12%;
+    background: #98885a;
+    border: 1px solid #98885a;
+    padding: 6px;
+    color: white;
+    border-radius: 4px;
+}
+.btn-next-bridal-wear:focus{
+    outline: none;
+}
+.btn-next-bridal-wear-step-two{
+    width: 22%;
+    background: #98885a;
+    border: 1px solid #98885a;
+    padding: 5px;
+    color: white;
+    border-radius: 3px;
+}
+.btn-back-bridal-wear-step-two{
+    background: transparent;
+    border: 1px solid #98885a;
+    padding: 5px;
+    width: 22%;
+    color: #98885a;
+    border-radius: 3px;
+}
+.shape-div-radio{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.text-body-measure{
+    text-align: center;
+    color: #98885a;
+}
+.measure-input-div{
+    border: 1px solid #98885a;
+    padding: 20px;
+}
+.feet-input{
+    border: none;
+    color: #98885a;
+    font-family: inherit;
+    width: 13%;
+}
+
+.feet-input:focus{
+    outline: none;
+}
+.text-ft-measure-span{
+    font-family: inherit;
+    color: #98885a;
+}
+.inch-input{
+    border: none;
+    color: #98885a;
+    font-family: inherit;
+    width: 30%;
+}
+
+.text-inc-measure-span{
+    font-family: inherit;
+    color: #98885a;
+    position: absolute;
+    left: 16%;
+    top: 0;
+}
+
+.inch-input:focus{
+    outline: none;
+}
+.measure-input-feet-div{
+    display: inline-block;
+    padding-left: 140px;
+}
+.measure-input-feet-div{
+    display: inline-block;
+}
+.measure-input-inch-div{
+    display: inline;
+    position: relative;
+}
+.progress-bar-border-div{
+    border: 1px solid #98885a;
+    margin: -2px;
+}
+.progress-bar-fill-stepone{
+    position: relative;
+    background: #98885a;
+    height: 9px;
+    margin: 0;
+    width: 11%;
+}
+.image-flower-bridalwear-stepone{
+    width: 15%;
+    position: absolute;
+    right: -7%;
+    top: -8px;
+}
+.progress-bar-fill-steptwo{
+    position: relative;
+    background: #98885a;
+    height: 9px;
+    margin: 0;
+    width: 22%;
+}
+.image-flower-bridalwear-steptwo{
+    width: 9%;
+    position: absolute;
+    right: -4%;
+    top: -10px;
+}
+.progress-bar-fill-stepthree{
+    position: relative;
+    background: #98885a;
+    height: 9px;
+    margin: 0;
+    width: 33%;
+}
+.image-flower-bridalwear-stepthree{
+    width: 6%;
+    position: absolute;
+    right: -3%;
+    top: -10px;
+}
+.progress-bar-fill-stepfour{
+    position: relative;
+    background: #98885a;
+    height: 9px;
+    margin: 0;
+    width: 44%;
+}
+.image-flower-bridalwear-stepfour{
+    width: 4%;
+    position: absolute;
+    right: -2%;
+    top: -9px;
+}
+.progress-bar-fill-stepfive{
+    position: relative;
+    background: #98885a;
+    height: 9px;
+    margin: 0;
+    width: 55%;
+}
+.image-flower-bridalwear-stepfive{
+    width: 3%;
+    position: absolute;
+    right: -1%;
+    top: -9px;
+}
+.progress-bar-fill-stepsix{
+    position: relative;
+    background: #98885a;
+    height: 9px;
+    margin: 0;
+    width: 66%;
+}
+.image-flower-bridalwear-stepsix{
+    width: 3%;
+    position: absolute;
+    right: -1%;
+    top: -11px;
+}
+.progress-bar-fill-stepseven{
+    position: relative;
+    background: #98885a;
+    height: 9px;
+    margin: 0;
+    width: 77%;
+}
+.image-flower-bridalwear-stepseven{
+    width: 2%;
+    position: absolute;
+    right: -1%;
+    top: -9px;
+}
+.progress-bar-fill-stepeight{
+    position: relative;
+    background: #98885a;
+    height: 9px;
+    margin: 0;
+    width: 88%;
+}
+.image-flower-bridalwear-stepeight{
+    width: 2%;
+    position: absolute;
+    right: -1%;
+    top: -10px;
+}
+.progress-bar-fill-stepnine{
+    position: relative;
+    background: #98885a;
+    height: 9px;
+    margin: 0;
+    width: 100%;
+}
+.image-flower-bridalwear-stepnine{
+    width: 0%;
+    position: absolute;
+    right: 0%;
+    top: 0px;
+}
+.budget-money-div{
+    border: 1px solid #98885a;
+    padding: 10px;
+}
+.budget-text-para{
+    text-align: center;
+    color: #98885a;
+}
+/* Bridal Wear questionaire One Css End */

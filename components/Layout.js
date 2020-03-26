@@ -21,8 +21,10 @@ const Layout = (props) => (
             <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
             <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-        
-
+            <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+            {/* <link href="//db.onlinewebfonts.com/c/9562f93b320f2e29a187fb851ff49ef0?family=SnellRoundhand+Script" rel="stylesheet" type="text/css"/> */}
+            <link href="//db.onlinewebfonts.com/c/2bd3372d24f66349c0f3c5d10d0735c8?family=SnellRoundhand+Script" rel="stylesheet" type="text/css"/>
+            <link href="//db.onlinewebfonts.com/c/655c4c2d9eff7c739a0702c8d6e3295c?family=SnellRoundhandW01-Bold" rel="stylesheet" type="text/css"/> 
         </Head>
         <Header />
         <div className='main-layout'>

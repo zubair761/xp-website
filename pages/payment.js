@@ -42,9 +42,9 @@ class payment extends React.Component{
                         <div className="select-tour-main-div-two">
                             <div className="pt-4">
                                 <span className="three-num-payment-div">
-                                    <span className="one-num-payment">3</span>
+                                    <span className="three-num-payment">3</span>
                                 </span>
-                                <span className="text-select-tour">Payment</span>
+                                <span className="text-payment">Payment</span>
                                 <i className="right-div"></i>
                             </div>
                         </div>

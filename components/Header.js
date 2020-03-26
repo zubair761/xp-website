@@ -7,7 +7,11 @@ import email from '../assets/mail.png';
 import fb from '../assets/fb.png';
 import insta from '../assets/insta.png';
 import twitter from '../assets/twitter.png';
+import youtube  from '../assets/youtube.png';
+import profile from '../assets/login.png';
 import logo from '../assets/XP-Logo_horizontal.png';
+import search from '../assets/search.png';
+
 
 
 class Header extends React.Component{
@@ -41,7 +45,7 @@ class Header extends React.Component{
                             <div className='col-4 col-lg-2 mg-text-header'>
                                 <div className="d-flex flex-row bd-highlight">
                                     <div className="bd-highlight">
-                                        <img src={skype} width="60%"/>
+                                        <a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1583996478&rver=7.1.6819.0&wp=MBI_SSL&wreply=https%3A%2F%2Flw.skype.com%2Flogin%2Foauth%2Fproxy%3Fclient_id%3D360605%26redirect_uri%3Dhttps%253A%252F%252Fsecure.skype.com%252Fportal%252Flogin%253Freturn_url%253Dhttps%25253A%25252F%25252Fsecure.skype.com%25252Fportal%25252Foverview%26response_type%3Dpostgrant%26state%3Ddd2c3c2fd368d480ae502449%26site_name%3Dlw.skype.com&lc=1033&id=293290&mkt=en-US&psi=skype&lw=1&cobrandid=2befc4b5-19e3-46e8-8347-77317a16a5a5&client_flight=ReservedFlight33%2CReservedFlight67"><img src={skype} width="60%"/></a>
                                     </div>
                                     <div className="bd-highlight">
                                         <span className="text-header">saadiababer</span>
@@ -51,7 +55,7 @@ class Header extends React.Component{
                             <div className='col-4 col-lg-3 mg-text-header'>
                                 <div className="d-flex flex-row bd-highlight">
                                     <div className="bd-highlight">
-                                        <img src={email} width="60%"/>
+                                        <a className="" href="https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=AddSession"><img src={email} width="60%"/></a>
                                     </div>
                                     <div className="bd-highlight">
                                         <span className="text-header">info@xperiencepakistan.co.uk</span>
@@ -61,22 +65,40 @@ class Header extends React.Component{
                             <div className='col-4 col-lg-2 mg-text-header'>
                                 <div className="d-flex flex-row bd-highlight">
                                     <div className="bd-highlight pr-2">
-                                        <img src={fb} width="50%"/>
+                                        <a href="https://www.facebook.com/"><img src={fb} width="50%"/></a>
                                     </div>
                                     <div className="bd-highlight">
-                                        <img src={insta} width="50%"/>
+                                        <a href="https://www.instagram.com/?hl=en"><img src={insta} width="50%"/></a>
                                     </div>
                                     <div className="bd-highlight">
-                                        <img src={twitter} width="50%"/>
+                                        <a href="https://twitter.com/?lang=en"><img src={twitter} width="50%"/></a>
                                     </div>
                                     <div className="bd-highlight">
-                                        <i className="fa fa-youtube-play youtube-icon"></i>
+                                        <a href="https://www.youtube.com/"><img src={youtube} width="50%"/></a>
                                     </div>
                                 </div>
                             </div>
-                            <div className='col-4 col-lg-1 mg-text-header'>
-                                <div className="d-flex justify-content-end">
-                                    <i class="fa fa-user-circle-o login-icon"></i>
+                            <div className='col-4 col-lg-1 p-0'>
+                                <div className="d-flex justify-content-end"> 
+                                    <nav>
+                                        <ul className="my-profile-ul-main">
+                                            <li className="drop-my-profile">
+                                                <a className="profile-img" href="#"><img src={profile} width="50%"/></a>
+                                                <div class="dropdownContain">
+                                                    <div className="dropOut">
+                                                        <div className="triangle"></div>
+                                                        <ul className="my-profile-dropdown-ul">
+                                                            <a className="" href="/profile"><li className="text-profile">My Profile</li></a>
+                                                            <a className="" href="/itineraries"><li className="text-profile">Itineraries</li></a>
+                                                            <a className="" href="/mytour"><li className="text-profile">My Tours</li></a> 
+                                                            <li className="text-profile">Settings</li>
+                                                            <li className="text-sign-out">Sign out</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </nav>
                                 </div>
                             </div>
                         </div>
@@ -266,7 +288,7 @@ class Header extends React.Component{
                                     </ul>
                                 </li>
                                 <li className="nav-item">
-                                    <a class="nav-link pd-li" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <a class="nav-link pd-li" href="/personalshopper" id="navbarDropdownMenuLink"  aria-haspopup="true" aria-expanded="false">
                                         Personal Shopper
                                     </a>
                                     <ul class="dropdown-menu dropdown-menu-right personal-shopper-ul-main" aria-labelledby="navbarDropdownMenuLink">
@@ -320,7 +342,7 @@ class Header extends React.Component{
                             <input type="text" className="search-input" placeholder="Search by location on Tour"/>
                             <div className="input-group-append">
                             <button className="btn btn-search" type="button">
-                                <i className="fa fa-search search-icon"></i>
+                                <img src={search} width="50%"/>
                             </button>
                             </div>
                         </div>

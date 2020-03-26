@@ -108,7 +108,7 @@ class Home extends React.Component{
                                 <a href="#" className="centered">Swat</a>
                             </div>
                             <div destination-imgage-div> 
-                                <img className="destination-images" src={lahore} alt="islamabad"/>
+                                <img className="destination-images" src={lahore} alt="lahore"/>
                                 <i className="fa fa-map-marker icon"></i>
                                 <a href="#" className="centered">Lahore</a>
                             </div>
@@ -261,7 +261,7 @@ class Home extends React.Component{
                         </div>
                     </div>
                 </div> 
-                <div className="" style={{background: `url(${hennapattern})`}}> 
+                <div className="" style={{background: `url(${hennapattern})`,backgroundSize: '800px'}}> 
                     <div className="row pt-5">
                         <div className="col-12 text-center">
                             <h3 className="text-about-us">About US</h3>

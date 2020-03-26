@@ -28,7 +28,7 @@ class adventure extends React.Component{
                         <div className="col-12 col-sm-4 col-lg-4">
                             <img className="adventure-images" src={chitral} alt="chitral"/>
                             <i className="fa fa-map-marker icon"></i>
-                            <a href="/adventure" className="adventure-sub-categories-text">Day Safari</a>
+                            <a href="/adventure" className="adventure-sub-categories-text">Day Safari</a> 
                         </div>
                         <div className="col-12 col-sm-4 col-lg-4">
                             <img className="adventure-images" src={hunza} alt="hunza"/>
@@ -58,3 +58,4 @@ class adventure extends React.Component{
 }
 
 export default adventure;
+ {/* <img className="adventure-images" src={chitral} alt="chitral"/> */}

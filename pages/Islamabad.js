@@ -2,6 +2,7 @@ import Layout from '../components/Layout';
 import faisalmosque from '../destination/Shah Faisal Mosque, Islamabad 2.jpg';
 import ReactFlagsSelect from 'react-flags-select';
 import hennapattern from '../assets/henapattern.png';
+import footer from '../components/Footer';
 
 class Islamabad extends React.Component{
 
@@ -31,9 +32,9 @@ class Islamabad extends React.Component{
                         <div className="select-tour-main-div-two">
                             <div className="pt-4">
                                 <span className="two-num-contact-detail-div">
-                                    <span className="one-num-payment">2</span>
+                                    <span className="one-num-payment-contact-detail">2</span>
                                 </span>
-                                <span className="text-select-tour">Contact Details</span>
+                                <span className="text-contact-detail">Contact Details</span>
                                 <i className="right-div"></i>
                             </div>
                         </div>
@@ -109,7 +110,7 @@ class Islamabad extends React.Component{
                                             <div className="form-group row pb-5">
                                                 <label for="inputPassword3" className="col-sm-2 col-form-label-destination-form">Address</label>
                                                 <div className="col-sm-10">
-                                                <textarea className=" " rows="6" cols="79"  name="comment" form="usrform"></textarea>
+                                                <textarea className="textarea-contact-detail" rows="6" cols="79"  name="comment" form="usrform"></textarea>
                                                 </div>
                                             </div>
                                     
@@ -168,7 +169,7 @@ class Islamabad extends React.Component{
                                             <div className="form-group row pb-5">
                                                 <label for="inputPassword3" className="col-sm-2 col-form-label-destination-form">Address</label>
                                                 <div className="col-sm-10">
-                                                <textarea className=" " rows="6" cols="79"  name="comment" form="usrform"></textarea>
+                                                <textarea className="textarea-contact-detail" rows="6" cols="79"  name="comment" form="usrform"></textarea>
                                                 </div>
                                             </div>
                                         
@@ -179,7 +180,7 @@ class Islamabad extends React.Component{
                                         <div className="form-group row pt-4">
                                             <label for="inputPassword3" className="col-sm-2 col-form-label-destination-form">Additional Notes</label>
                                             <div className="col-sm-10">
-                                                <textarea className=" " rows="6" cols="90"  name="comment" form="usrform"></textarea>
+                                                <textarea className="textarea-contact-detail" rows="6" cols="90"  name="comment" form="usrform"></textarea>
                                             </div>
                                         </div>
                                     </div>
