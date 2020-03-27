@@ -21,7 +21,7 @@ class adventure extends React.Component{
                     <div className="row pt-5">
                         <div className="col-12 text-center">
                             <i className="fa fa-map-marker location-icon-eperience-page"></i>
-                            <h3 className="text-adventure-page-adventure">Adventure</h3>
+                            <h3 className="text-experience-paage-experience">Adventure</h3>
                         </div>
                     </div>
                     <div className="row pt-4">

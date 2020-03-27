@@ -1,7 +1,11 @@
 import Layout from '../Layout';
+import traditional from '../../personalShopper/Inner-bridal wear-Q2_Look/traditional.png';
+import contemporary from '../../personalShopper/Inner-bridal wear-Q2_Look/contemporary.png';
+import bothered from '../../personalShopper/Inner-bridal wear-Q2_Look/not bothered.png';
 import flower from '../../assets/flower.png';
 
-class stepNine extends React.Component{
+
+class stepThree extends React.Component{
 
     saveAndContinue = (e) => {
         e.preventDefault()
@@ -13,38 +17,38 @@ class stepNine extends React.Component{
   }
 
     render(){
-        const { values } = this.props;
+
         return(
-          <Layout>
+            <Layout>
                 <div className="row mt-5">
                     <div className="col-12">
                         <div className="progress-bar-border-div">
-                            <p className="progress-bar-fill-stepnine">
-                                <img className="image-flower-bridalwear-stepnine" src={flower} alt="flower"/>
+                            <p className="casualwear-progress-bar-fill-stepthree">
+                                <img className="image-flower-bridalwear-stepthree" src={flower} alt="flower"/>
                             </p>
                         </div>
                     </div>
                 </div>
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 pt-5 pb-5">
-                            <h3 className="text-what-your-style">What's your budget in PKR?</h3>
+                        <div className="col-12 pt-5">
+                            <h3 className="text-what-your-style">What type of fit do you feel comfortable in?</h3>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row pt-5 pb-5">
                         <div className="col-12 col-sm-4 col-lg-4">
-                            <div className="budget-money-div">
-                                <p className="budget-text-para">Value for Money <br /> (50,000 - 150,000)</p>
+                            <div className="casual-wear-length-stepOne-div">
+                                <p className="casual-wear-fit-stepthree">Loose</p>
                             </div>
                         </div>
                         <div className="col-12 col-sm-4 col-lg-4">
-                            <div className="budget-money-div">
-                                <p className="budget-text-para">High Street <br /> (<span>e</span>150,000 - 250,000)</p>
+                            <div className="casual-wear-length-stepOne-div">
+                                <p className="casual-wear-fit-stepthree">Snug</p>
                             </div>
                         </div>
                         <div className="col-12 col-sm-4 col-lg-4">
-                            <div className="budget-money-div">
-                                <p className="budget-text-para">Branded <br /> (More than 250,000)</p>   
+                            <div className="casual-wear-length-stepOne-div">
+                                <p className="casual-wear-fit-stepthree">Not bothered!</p>   
                             </div>
                         </div>
                     </div>
@@ -53,13 +57,13 @@ class stepNine extends React.Component{
                             <button className="btn-back-bridal-wear-step-two" type="button" onClick={this.back}>Back</button>
                         </div>
                         <div className="col-12 col-sm-6 col-lg-6 text-right">
-                            <button className="btn-next-bridal-wear-step-two" type="button" >Submit</button>
+                            <button className="btn-next-bridal-wear-step-two" type="button" onClick={this.saveAndContinue}>Next</button>
                         </div>
                     </div>
                 </div>
-           </Layout>
+            </Layout>
         )
     }
 }
 
-export default stepNine;
+export default stepThree;

@@ -110,58 +110,58 @@ import silhouettesexperience from '../assets/silhouettes-experiecnes.png';
                         >
                             <div className="destination-imgage-div"> 
                                 <img className="destination-images" src={chitral} alt="chitral"/>
-                                <i className="fa fa-map-marker experience-sub-categoriestext-icon"></i>
-                                <a href="#" className="experience-sub-categoriestext">Day Excursion</a>
+                                <i className="fa fa-map-marker experience-page-subcategories-icon"></i>
+                                <a href="#" className="experience-page-subcategoriestext">Day Excursion</a>
                             </div>
                             <div destination-imgage-div> 
                                 <img className="destination-images" src={hunza} alt="hunza"/>
-                                <i className="fa fa-map-marker experience-sub-categoriestext-icon"></i>
-                                <a href="/adventure" className="experience-sub-categoriestext">Adventure Holidays</a>
+                                <i className="fa fa-map-marker experience-page-subcategories-icon"></i>
+                                <a href="/adventure" className="experience-page-subcategoriestext">Adventure Holidays</a>
                             </div>
                             <div destination-imgage-div> 
                                 <img className="destination-images" src={naran} alt="naran"/>
-                                <i className="fa fa-map-marker experience-sub-categoriestext-icon"></i>
-                                <a href="#" className="experience-sub-categoriestext">Back to Nature</a>
+                                <i className="fa fa-map-marker experience-page-subcategories-icon"></i>
+                                <a href="#" className="experience-page-subcategoriestext">Back to Nature</a>
                             </div>
                             <div destination-imgage-div> 
                                 <img className="destination-images" src={swat} alt="swat"/>
-                                <i className="fa fa-map-marker experience-sub-categoriestext-icon"></i>
-                                <a href="#" className="experience-sub-categoriestext">Culture & Heritage</a>
+                                <i className="fa fa-map-marker experience-page-subcategories-icon"></i>
+                                <a href="#" className="experience-page-subcategoriestext">Culture & Heritage</a>
                             </div>
                             <div destination-imgage-div> 
                                 <img className="destination-images" src={lahore} alt="islamabad"/>
-                                <i className="fa fa-map-marker experience-sub-categoriestext-icon"></i>
-                                <a href="#" className="experience-sub-categoriestext">Recreational Holidays</a>
+                                <i className="fa fa-map-marker experience-page-subcategories-icon"></i>
+                                <a href="#" className="experience-page-subcategoriestext">Recreational Holidays</a>
                             </div>
                             <div destination-imgage-div> 
                                 <img className="destination-images" src={islamabad} alt="islamabad"/>
-                                <i className="fa fa-map-marker experience-sub-categoriestext-icon"></i>
-                                <a href="#" className="experience-sub-categoriestext">Marriage Holidays</a>
+                                <i className="fa fa-map-marker experience-page-subcategories-icon"></i>
+                                <a href="#" className="experience-page-subcategoriestext">Marriage Holidays</a>
                             </div>
                             <div destination-imgage-div> 
                                 <img className="destination-images" src={hunza} alt="hunza"/>
-                                <i className="fa fa-map-marker experience-sub-categoriestext-icon"></i>
-                                <a href="#" className="experience-sub-categoriestext">Socially Responsible</a>
+                                <i className="fa fa-map-marker experience-page-subcategories-icon"></i>
+                                <a href="#" className="experience-page-subcategoriestext">Socially Responsible</a>
                             </div>
                             <div destination-imgage-div> 
                                 <img className="destination-images" src={naran} alt="naran"/>
-                                <i className="fa fa-map-marker experience-sub-categoriestext-icon"></i>
-                                <a href="#" className="experience-sub-categoriestext">Socially Responsible</a>
+                                <i className="fa fa-map-marker experience-page-subcategories-icon"></i>
+                                <a href="#" className="experience-page-subcategoriestext">Socially Responsible</a>
                             </div>
                             <div destination-imgage-div> 
                                 <img className="destination-images" src={swat} alt="swat"/>
-                                <i className="fa fa-map-marker experience-sub-categoriestext-icon"></i>
-                                <a href="#" className="experience-sub-categoriestext">Customize Holidays</a>
+                                <i className="fa fa-map-marker experience-page-subcategories-icon"></i>
+                                <a href="#" className="experience-page-subcategoriestext">Customize Holidays</a>
                             </div>
                             <div destination-imgage-div> 
                                 <img className="destination-images" src={islamabad} alt="islamabad"/>
-                                <i className="fa fa-map-marker experience-sub-categoriestext-icon"></i>
-                                <a href="#" className="experience-sub-categoriestext">Day Excursion</a>
+                                <i className="fa fa-map-marker experience-page-subcategories-icon"></i>
+                                <a href="#" className="experience-page-subcategoriestext">Day Excursion</a>
                             </div>
                             <div destination-imgage-div> 
                                 <img className="destination-images" src={lahore} alt="islamabad"/>
-                                <i className="fa fa-map-marker experience-sub-categoriestext-icon"></i>
-                                <a href="/adventure" className="experience-sub-categoriestext">Adventure Holidays</a>
+                                <i className="fa fa-map-marker experience-page-subcategories-icon"></i>
+                                <a href="/adventure" className="experience-page-subcategoriestext">Adventure Holidays</a>
                             </div>
                         </Carousel>
                     </div>

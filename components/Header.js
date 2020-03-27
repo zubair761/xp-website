@@ -275,7 +275,7 @@ class Header extends React.Component{
                                         <li class="dropdown-submenu"><a class="dropdown-item text-day" href="#">Punjab<i class="fa fa-angle-right right-icon-punjab"></i></a>
                                             <ul class="dropdown-menu punjab-menu">
                                                 <li><a class="dropdown-item" href="#">Lahore</a></li>
-                                                <li><a class="dropdown-item" href="/islamabad">Islamabad</a></li>
+                                                <li><a class="dropdown-item" href="/Islamabad">Islamabad</a></li>
                                                 <li><a class="dropdown-item" href="#">Murree</a></li>
                                             </ul>
                                         </li>
@@ -288,7 +288,7 @@ class Header extends React.Component{
                                     </ul>
                                 </li>
                                 <li className="nav-item">
-                                    <a class="nav-link pd-li" href="/personalshopper" id="navbarDropdownMenuLink"  aria-haspopup="true" aria-expanded="false">
+                                    <a class="nav-link pd-li" href="/personalShopper" id="navbarDropdownMenuLink"  aria-haspopup="true" aria-expanded="false">
                                         Personal Shopper
                                     </a>
                                     <ul class="dropdown-menu dropdown-menu-right personal-shopper-ul-main" aria-labelledby="navbarDropdownMenuLink">

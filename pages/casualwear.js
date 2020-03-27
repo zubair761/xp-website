@@ -1,16 +1,17 @@
-import StepOne from '../components/bridalWearStepform/stepOne';
-import StepTwo from '../components/bridalWearStepform/stepTwo';
-import StepThree from '../components/bridalWearStepform/stepThree';
-import StepFour from '../components/bridalWearStepform/stepFour';
-// import StepFive from '../components/bridalWearStepform/stepFive';
-import StepSix from '../components/bridalWearStepform/stepSix';
-import StepSeven from '../components/bridalWearStepform/stepSeven';
-import StepEight from '../components/bridalWearStepform/stepEight';
-import StepNine from '../components/bridalWearStepform/stepNine';
-import StepTen from '../components/bridalWearStepform/stepTen';
+import StepOne from '../components/casualWearStepform/stepOne';
+import StepTwo from '../components/casualWearStepform/stepTwo';
+import StepThree from '../components/casualWearStepform/stepThree';
+import StepFour from '../components/casualWearStepform/stepFour';
+import StepFive from '../components/casualWearStepform/stepFive';
+import StepSix from '../components/casualWearStepform/stepSix';
+import StepSeven from '../components/casualWearStepform/stepSeven';
+import StepEight from '../components/casualWearStepform/stepEight';
+import StepNine from '../components/casualWearStepform/stepNine';
+import StepTen from '../components/casualWearStepform/stepTen';
 
 
-class bridalWear extends React.Component {
+
+class casualWear extends React.Component {
     state = {
         step: 1,
     }
@@ -57,7 +58,7 @@ class bridalWear extends React.Component {
                     prevStep={this.prevStep}
                     />
         case 5:
-            return  <StepTen
+            return  <StepFive
                     nextStep={this.nextStep}
                     prevStep={this.prevStep}
                     />
@@ -78,6 +79,11 @@ class bridalWear extends React.Component {
                     />
         case 9:
             return <StepNine
+                    nextStep={this.nextStep}
+                    prevStep={this.prevStep}
+                    />
+        case 10:
+            return <StepTen
                     prevStep={this.prevStep}
                     />
        
@@ -85,4 +91,4 @@ class bridalWear extends React.Component {
     }
 }
 
-export default bridalWear;
+export default casualWear;

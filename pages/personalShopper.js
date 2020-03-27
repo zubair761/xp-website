@@ -117,14 +117,23 @@ class personalShopper  extends React.Component{
                         <div className="col-12 text-center p-4">
                             <div  className="personalShopper-image-div"> 
                                 <img className="personalShopper-bridalWear" src={bridalWear} alt="bridalWear"/>
-                                <i className="fa fa-map-marker icon-bridalWear-personalShopper"></i>
-                                <a href="/bridalwear" className="centered-bridalWear-personalShopper">Bridal Wear</a>
+                                {/* <i className="fa fa-map-marker icon-bridalWear-personalShopper  "></i> */}
+                                <a href="/bridalWear" className="centered-bridalWear-personalShopper bridalwearhover">
+                                    <i className="fa fa-map-marker  "></i>
+                                    <br />
+                                    Bridal Wear
+                                </a>
                             </div>
                             <div className="personalShopper-image-div"> 
                                 <img className="personalShopper-casualWear" src={casualWear} alt="casualWear"/>
                                 <div >
-                                <i className="fa fa-map-marker icon-casualWear-personalShopper"></i>
-                                <a href="#" className="centered-casualWear-personalShopper">Casual Wear</a>
+                                {/* <i className="fa fa-map-marker icon-casualWear-personalShopper"></i>
+                                <a href="/casualwear" className="centered-casualWear-personalShopper">Casual Wear</a> */}
+                                <a href="/casualwear" className="centered-casualWear-personalShopper bridalwearhover">
+                                    <i className="fa fa-map-marker  "></i>
+                                    <br />
+                                    Casual Wear
+                                </a>
                                 </div>
                             </div>
                         </div>

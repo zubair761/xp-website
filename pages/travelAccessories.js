@@ -48,11 +48,11 @@ class recommendedTravelAccessories extends React.Component{
                         <a className="my-profile-sidenav" href="/reviews"  onClick={this.navClose}>Reviews & Ratings</a>
                         <a className="my-profile-sidenav" href="/itineraries"  onClick={this.navClose}>Itineraries</a>
                         <a className="my-profile-sidenav" href="/mytour"  onClick={this.navClose}>My tours</a>
-                        <a className="my-profile-sidenav" href="/mygallery"  onClick={this.navClose}>My Gallery</a>
+                        <a className="my-profile-sidenav" href="/myGallery"  onClick={this.navClose}>My Gallery</a>
                         <a className="my-profile-sidenav" href="/paymentdetailprofile"  onClick={this.navClose}>Payment Details</a>
                         <a className="my-profile-sidenav" href="/traveldocument"  onClick={this.navClose}>Travel documents</a>
                         <a className="my-profile-sidenav" href="#"  onClick={this.navClose}>Recommended travel accessories</a>
-                        <a className="my-profile-sidenav" href="/wishlist"  onClick={this.navClose}>wishlist</a>
+                        <a className="my-profile-sidenav" href="/wishList"  onClick={this.navClose}>wishlist</a>
                     </div>
                             
                     <div id="main">

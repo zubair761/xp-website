@@ -12,7 +12,7 @@
 .text-header{
     font-size: 14px;
     color: white;
-    font-family: "Snell Roundhand";
+    font-family: inherit;
 }
 .youtube-icon{
     font-size: 25px;
@@ -30,7 +30,7 @@
 .pd-li{
     padding-right: 32px !important;
     color: #8C3603 !important;
-    font-family: "Snell Roundhand";
+    font-family: inherit;
 }
 
 @media screen and (max-width: 1295px) {
@@ -49,6 +49,9 @@
 }
 .flags-dropdown-div{
     display: inline-block;
+}
+.flags-dropdown-div .flag-select .flag-select__btn:focus{
+    outline: none;
 }
 .btn-search{
     background-color: #98885a;
@@ -148,9 +151,10 @@
     margin: 0px 10px;
     color: white;
     opacity: 0.8;
-    font-weight: 100;
+    font-weight: 600;
     border-bottom: 1px solid white;
-	transition: 'background .1s ease-out';
+    transition: 'background .1s ease-out';
+    text-align: center;
 }
 .text-sign-out{
     list-style-type: none;
@@ -161,8 +165,9 @@
     margin: 0px 10px;
     color: white;
     opacity: 0.8;
-    font-weight: 100;
-	transition: 'background .1s ease-out';
+    font-weight: 600;
+    transition: 'background .1s ease-out';
+    text-align: center;
 }
 
 .my-profile-ul-main .drop-my-profile:hover .dropdownContain { top: 25px; }
@@ -743,7 +748,8 @@
     font-size: 35px;
     color: #98885a;
     font-weight: 100;
-    font-family: "SnellRoundhandW01-Bold";
+    font-family: "Snell Roundhand";
+    /* font-family: "SnellRoundhandW01-Bold"; */
 }
 
 .input-container-footer {
@@ -829,7 +835,7 @@
     font-weight: 100;
     font-size: 15px;
     padding-top: 80px;
-    padding-right: 50px;
+    padding-right: 45px;
     padding-left: 50px;
 }
 .img-pts{
@@ -870,26 +876,26 @@
 .text-gloucester{
     color: white;
     text-align: center;
-    font-size: 17px;
+    font-size: 16px;
     padding-bottom: 24px;
     font-weight: 100;
 }
 .text-num-national{
     text-align: center;
-    font-size: 20px;
+    font-size: 17px;
     color: white;
     font-weight: 100;
 }
 .text-num-international{
     text-align: center;
-    font-size: 21px;
+    font-size: 18px;
     color: white;
     margin-top: -16px;
     font-weight: 100;
 }
 .text-mail-footer{
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     color: white;
     margin-top: -16px;
     margin-bottom: 15px;
@@ -938,7 +944,7 @@
 }
 .text-tc{
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 100;
     margin-bottom: 8px;
 }
@@ -950,7 +956,7 @@
 
 .text-working{
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 100;
 }
 .slider-home-page-image {
@@ -1777,6 +1783,7 @@
     font-weight: 100;
     text-transform: uppercase;
     color: white;
+    font-family: "Snell Roundhand";
 }
 .text-experience-paage-experience{
     display: inline-block;
@@ -1833,6 +1840,14 @@
     position: relative;
     text-align: center; 
 }
+.experience-page-subcategories-icon{
+    position: absolute;
+    top: 39%;
+    left: 68%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: white;
+}
 .experience-sub-categoriestext-icon{
     position: absolute;
     top: 39%;
@@ -1842,6 +1857,24 @@
     color: white;
   
   }
+  .experience-page-subcategoriestext{
+    position: absolute;
+    top: 55%;
+    left: 68%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 35px;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 35px;
+    width: 200px;
+    text-align: center;
+  }
+  .experience-page-subcategoriestext:hover{
+    color: white;
+    text-decoration: none;
+}
+
   .experience-sub-categoriestext {
     position: absolute;
     top: 55%;
@@ -2628,7 +2661,7 @@
     color: #8C3603;
     display: block;
     transition: 0.3s;
-    font-weight: 100;
+    font-weight: 600;
     text-transform: uppercase;
   }
   
@@ -3135,7 +3168,7 @@ input[type="file"] {
 .text-personalShopper{
     display: inline-block;
     color: #98885a;
-    font-family: sans-serif;
+    font-family: "SnellRoundhandW01-Bold";
     font-size: 40px;
 }
 
@@ -3185,11 +3218,14 @@ input[type="file"] {
 }
 .personalShopper-bridalWear{
     height: 415px;
+    filter: brightness(0.4);
 }
+
 .personalShopper-casualWear{
     height: 415px;
     filter: brightness(0.4);
 }
+
 .icon-bridalWear-personalShopper{
     position: absolute;
     top: 39%;
@@ -3208,10 +3244,14 @@ input[type="file"] {
     font-size: 45px;
     font-weight: 100;
     text-decoration: none;
+    line-height: 1;
+    font-family: "Snell Roundhand";
   }
   .centered-bridalWear-personalShopper:hover{
-      color: white;
       text-decoration: none;
+  }
+  .bridalwearhover:hover{
+    color:#98885a;;
   }
   .icon-casualWear-personalShopper{
     position: absolute;
@@ -3231,9 +3271,10 @@ input[type="file"] {
     font-size: 45px;
     font-weight: 100;
     text-decoration: none;
+    line-height: 1;
+    font-family: "SnellRoundhandW01-Bold";
   }
   .centered-casualWear-personalShopper:hover{
-      color: #98885a;
       text-decoration: none;
   }
 /* Personal Shopper Css End */
@@ -3267,6 +3308,10 @@ input[type="file"] {
     padding: 5px;
     color: white;
     border-radius: 3px;
+    outline: none;
+}
+.btn-next-bridal-wear-step-two:focus{
+    outline: none;
 }
 .btn-back-bridal-wear-step-two{
     background: transparent;
@@ -3275,6 +3320,10 @@ input[type="file"] {
     width: 22%;
     color: #98885a;
     border-radius: 3px;
+    outline: none;
+}
+.btn-back-bridal-wear-step-two:focus{
+    outline: none;
 }
 .shape-div-radio{
     display: flex;
@@ -3462,3 +3511,131 @@ input[type="file"] {
     color: #98885a;
 }
 /* Bridal Wear questionaire One Css End */
+
+
+/* Casual Wear questionaire  Css Start */
+
+.text-casualWear-questionnaire{
+    display: inline;
+    color: #98885a;
+    font-weight: 400;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.casual-wear-length-stepOne-div{
+    border: 1px solid #98885a;
+    padding: 10px;
+}
+.casual-wear-length-stepOne{
+    text-align: center;
+    color: #98885a;
+}
+.casual-wear-knee-length{
+    border: 1px solid #98885a;
+    padding: 26px 0 17px;
+}
+.casual-wear-fit-stepthree{
+    text-align: center;
+    color: #98885a;
+    font-size: 25px;
+}
+.casual-wear-fit-stepfour{
+    text-align: center;
+    color: #98885a;
+    font-size: 20px;
+}
+.casual-wear-wash-stepfive{
+    text-align: center;
+    color: #98885a;
+}
+.casualwear-progress-bar-fill-stepone{
+    position: relative;
+    background: #98885a;
+    height: 9px;
+    margin: 0;
+    width: 10%;
+}
+.casualwear-progress-bar-fill-steptwo{
+    position: relative;
+    background: #98885a;
+    height: 9px;
+    margin: 0;
+    width: 20%;
+}
+.casualwear-progress-bar-fill-stepthree{
+    position: relative;
+    background: #98885a;
+    height: 9px;
+    margin: 0;
+    width: 30%;
+}
+.casualwear-progress-bar-fill-stepfour{
+    position: relative;
+    background: #98885a;
+    height: 9px;
+    margin: 0;
+    width: 40%;
+}
+.casualwear-progress-bar-fill-stepfive{
+    position: relative;
+    background: #98885a;
+    height: 9px;
+    margin: 0;
+    width: 50%;
+}
+.casualwear-progress-bar-fill-stepsix{
+    position: relative;
+    background: #98885a;
+    height: 9px;
+    margin: 0;
+    width: 60%;
+}
+.casualwear-progress-bar-fill-stepseven{
+    position: relative;
+    background: #98885a;
+    height: 9px;
+    margin: 0;
+    width: 70%;
+}
+.casualwear-progress-bar-fill-stepeigth{
+    position: relative;
+    background: #98885a;
+    height: 9px;
+    margin: 0;
+    width: 80%;
+}
+.casualwear-progress-bar-fill-stepnine{
+    position: relative;
+    background: #98885a;
+    height: 9px;
+    margin: 0;
+    width: 90%;
+}
+.image-flower-casualwear-stepnine{
+    width: 2%;
+    position: absolute;
+    right: -1%;
+    top: -9px;
+}
+.casualwear-progress-bar-fill-stepten{
+    position: relative;
+    background: #98885a;
+    height: 9px;
+    margin: 0;
+    width: 100%;
+}
+.image-flower-casualwear-stepten{
+    width: 0%;
+    position: absolute;
+    right: 0%;
+    top: 0px;
+}
+
+
+
+
+
+
+
+
+/* Casual Wear questionaire  Css End */

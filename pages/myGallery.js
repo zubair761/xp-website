@@ -47,8 +47,8 @@ class myGallery extends React.Component{
                         <a className="my-profile-sidenav" href="#"  onClick={this.navClose}>My Gallery</a>
                         <a className="my-profile-sidenav" href="/paymentdetailprofile"  onClick={this.navClose}>Payment Details</a>
                         <a className="my-profile-sidenav" href="/traveldocument"  onClick={this.navClose}>Travel documents</a>
-                        <a className="my-profile-sidenav" href="/travelaccessories"  onClick={this.navClose}>Recommended travel accessories</a>
-                        <a className="my-profile-sidenav" href="/wishlist"  onClick={this.navClose}>wishlist</a>
+                        <a className="my-profile-sidenav" href="/travelAccessories"  onClick={this.navClose}>Recommended travel accessories</a>
+                        <a className="my-profile-sidenav" href="/wishList"  onClick={this.navClose}>wishlist</a>
                     </div>
                             
                     <div id="main">
